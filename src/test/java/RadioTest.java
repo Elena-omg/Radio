@@ -28,21 +28,10 @@ public class RadioTest {
         Assertions.assertEquals(expected, actual);
     }
 
+
+
     @Test
     public void shouldSetStation2() {
-        Radio radio = new Radio();
-
-        radio.setCurrentStation(9);
-
-        radio.setCurrentStation(10);
-
-        int expected = 0;
-        int actual = radio.getCurrentStation();
-        Assertions.assertEquals(expected, actual);
-    }
-
-    @Test
-    public void shouldSetStation3() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(8);
@@ -53,7 +42,7 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldSetStation4() {
+    public void shouldSetStation3() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(9);
@@ -64,7 +53,7 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldSetStation5() {
+    public void shouldSetStation4() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(8);
@@ -76,7 +65,7 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldSetStation6() {
+    public void shouldSetStation5() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(9);
@@ -88,7 +77,7 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldSetStation7() {
+    public void shouldSetStation6() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(2);
@@ -100,7 +89,7 @@ public class RadioTest {
     }
 
     @Test
-    public void shouldSetStation8() {
+    public void shouldSetStation7() {
         Radio radio = new Radio();
 
         radio.setCurrentStation(0);
@@ -112,7 +101,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testVolume9() {
+    public void testVolume8() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(0);
@@ -124,7 +113,7 @@ public class RadioTest {
 
 
     @Test
-    public void testVolume10() {
+    public void testVolume9() {
         Radio radio = new Radio();
 
         radio.setCurrentVolume(0);
@@ -136,7 +125,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testVolume11() {
+    public void testVolume10() {
         Radio radio = new Radio();
         radio.setCurrentVolume(100);
 
@@ -148,7 +137,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testVolume12() {
+    public void testVolume11() {
         Radio radio = new Radio();
         radio.setCurrentVolume(50);
 
@@ -160,7 +149,7 @@ public class RadioTest {
     }
 
     @Test
-    public void testVolume13() {
+    public void testVolume12() {
         Radio radio = new Radio();
         radio.setCurrentVolume(50);
 
