@@ -106,7 +106,7 @@ public class RadioTest {
         radio.setCurrentStation(0);
         radio.prevStation();
 
-        int expected = 0;
+        int expected = 9;
         int actual = radio.getCurrentStation();
         Assertions.assertEquals(expected, actual);
     }
